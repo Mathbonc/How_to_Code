@@ -1,2 +1,4 @@
-﻿  FaceDetection.cpp
+﻿  Projeto1.cpp
+D:\Documentos\Universidade\Codes\How_to_Code\Learning_OpenCV\Learning_OpenCV\Projeto1.cpp(36,12): warning C4244: 'inicializando': conversão de 'double' para 'int', possível perda de dados
+D:\Documentos\Universidade\Codes\How_to_Code\Learning_OpenCV\Learning_OpenCV\Projeto1.cpp(41,15): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
   Learning_OpenCV.vcxproj -> D:\Documentos\Universidade\Codes\How_to_Code\Learning_OpenCV\x64\Debug\Learning_OpenCV.exe

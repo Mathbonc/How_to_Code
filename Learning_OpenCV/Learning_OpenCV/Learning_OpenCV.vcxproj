@@ -19,10 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FaceDetection.cpp" />
+    <Xml Include="Recursos\haarcascade_frontalface_default.xml" />
   </ItemGroup>
   <ItemGroup>
-    <Xml Include="Recursos\haarcascade_frontalface_default.xml" />
+    <ClCompile Include="Projeto1.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

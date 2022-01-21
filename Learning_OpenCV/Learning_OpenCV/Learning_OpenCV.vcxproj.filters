@@ -15,11 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FaceDetection.cpp">
-      <Filter>Arquivos de Origem</Filter>
-    </ClCompile>
+    <Xml Include="Recursos\haarcascade_frontalface_default.xml" />
   </ItemGroup>
   <ItemGroup>
-    <Xml Include="Recursos\haarcascade_frontalface_default.xml" />
+    <ClCompile Include="Projeto1.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
