@@ -8,12 +8,12 @@ print(' Dessa forma')
 
 #Usando isso para um CPF:
 """"
-print('824', '176', '070', sep='.', end='')
-print('-18')
+print('824', '176', '070', sep='.', end='-')
+print('18')
 """
 
 #Tipos de Dados
-"""
+""""
 print("TIPOS DE DADOS")
 print(type('Vai devolver o tipo desse valor (str)'))
 print(10,type(10))
@@ -33,6 +33,7 @@ print('É possíve multiplicar uma str várias', 5*'vezes ')
 print('O sinal de + pode ser' + ' usado para concatenar strings')
 """
 #Usando Formatação de Strings:
+
 nome = 'Matheus'
 idade = 20; peso = 70; altura = 1.70; 
 curso = 'Eng. da Computação'
