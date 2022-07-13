@@ -23,4 +23,18 @@ sumPairs (x:xs) [] = (x) : sumPairs xs []
 
 -- TODO: CASAMENTO DE PADRÕS
 
---Fibonacci
+-- ? Outras formas de escrever listas:
+
+lista :: Int -> [Int]
+lista 1 = 4:(5:[]) -- * [4,5]
+lista 2 = 2:3:4:5:[] -- * [2,3,4,5]
+
+-- ? Construtor Polimórifico
+
+-- * (:) :: Int -> [Int] -> [Int]
+-- * Pega um Inteiro e coloca numa lista já existente.
+
+-- ? Alguns comandos
+
+-- * head, tail
+
