@@ -33,22 +33,18 @@ twoRoots a b c = (d-e,d+e)
 
 -- * Função Principal
 roots :: (Float, Float, Float) -> String
-roots a b c 
+roots (a, b, c) 
     | (b^2 == 4.0*a*c) = show (oneRoot a b c)
     | (b^2 > 4.0*a*c) = show f ++ " " ++ show s
-    | otherwise "no roots"
-    where (f,s) = twoRoots a b c   
+    | otherwise = "no roots"
+    where (f,s) = twoRoots a b c
 
 -- ? Poderíamos chamar a função duas vezes para f e s, usando as funções "fst" e "snd" para pegarmos a primeira e segunda posições da tupla, respectivamente
 
 -- TODO: EXERCÍCIO 1
 
-greater :: Int -> Int -> Int
-greater a b
-    | (a>b) = a
-    | otherwise = b
+type Ponto = (Float,Float)
+type Reta = (Ponto,Ponto)
 
-menorMaior :: Int -> Int -> Int -> (Int,Int)
-menorMaior a b c 
-    | 
-    | 
+pontoY :: Float -> Reta -> Float
+pontoY x ((x1,y1),(x2,y2)) = ((((y2-y1)*(x-x1))/(x2-x1)) + y1)
