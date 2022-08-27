@@ -26,3 +26,5 @@ data List t = Nil | Cons t (List t) -- ? Nil == Null
 
 data Tree t = NilT -- ? NilT = Nil Tree
             | Node t (Tree t) (Tree t)
+            deriving (Eq,Show) -- ? Indica que tudo que eu posso fazer com (Eq,Show)
+                               -- ? eu posso fazer com Tree
